@@ -1,0 +1,12 @@
+{
+  "name": "agrigrid-root",
+  "version": "1.0.0",
+  "description": "AgriGrid B2B Agriculture Marketplace Root Runner",
+  "scripts": {
+    "start": "npm run start --prefix server",
+    "dev": "npm run dev --prefix client",
+    "server": "npm run start --prefix server",
+    "client": "npm run dev --prefix client"
+  },
+  "private": true
+}
